@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - development
+  cloud:
+    config:
+      fail-fast: true
+      password: s3cr3t
+      username: root
+      uri:
+        - http://localhost:9090
